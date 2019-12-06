@@ -3,535 +3,172 @@
     "line": 1,
     "elements": [
       {
-        "line": 19,
-        "name": "Free CRM application adding contacts scenario",
+        "line": 3,
+        "name": "Create new Deals scenario",
         "description": "",
-        "id": "free-crm-application-features;free-crm-application-adding-contacts-scenario;;2",
+        "id": "free-crm-application-deals-features;create-new-deals-scenario",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8929584500,
+              "duration": 10179357500,
               "status": "passed"
             },
             "line": 4,
             "name": "The user is browser url",
             "match": {
-              "location": "ContactsStepDefinition.the_user_is_browser_url()"
+              "location": "DealsStepDefinition.the_user_is_browser_url()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15668400,
+              "duration": 13000300,
               "status": "passed"
             },
             "line": 5,
             "name": "The user is on loginpage",
             "match": {
-              "location": "ContactsStepDefinition.the_user_is_on_loginpage()"
+              "location": "DealsStepDefinition.the_user_is_on_loginpage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1219400,
+              "duration": 1298500,
               "status": "passed"
             },
             "line": 6,
             "name": "The login page title is correct",
             "match": {
-              "location": "ContactsStepDefinition.the_login_page_title_is_correct()"
+              "location": "DealsStepDefinition.the_login_page_title_is_correct()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 219937500,
+              "duration": 156158300,
               "status": "passed"
             },
             "line": 7,
-            "name": "The user entered \"hemsunder\" and \"hem@123\"",
+            "name": "The user entered username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "hemsunder",
-                  "offset": 18
-                },
-                {
-                  "val": "hem@123",
-                  "offset": 34
-                }
-              ],
-              "location": "ContactsStepDefinition.the_user_entered_and(String,String)"
+              "location": "DealsStepDefinition.the_user_entered_and(DataTable)"
             },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "hemsunder",
+                  "hem@123"
+                ],
+                "line": 8
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9747441600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The user logged into application",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_logged_into_application()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 14261900,
+              "duration": 9668402000,
               "status": "passed"
             },
             "line": 9,
-            "name": "The user is on HomePage",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_is_on_HomePage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 54200,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "The title of the homepage is correct",
-            "match": {
-              "location": "ContactsStepDefinition.the_title_of_the_homepage_is_correct()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 502422400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "The user wants to add contacts",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_wants_to_add_contacts()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1782577600,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User enteres \"jack\" and \"jones\" and \"google\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jack",
-                  "offset": 14
-                },
-                {
-                  "val": "jones",
-                  "offset": 25
-                },
-                {
-                  "val": "google",
-                  "offset": 37
-                }
-              ],
-              "location": "ContactsStepDefinition.user_enteres_and_and(String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 162908900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "The user clicks on Save button",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_clicks_on_Save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 677611600,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Quit the browser",
-            "match": {
-              "location": "ContactsStepDefinition.quit_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 20,
-        "name": "Free CRM application adding contacts scenario",
-        "description": "",
-        "id": "free-crm-application-features;free-crm-application-adding-contacts-scenario;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8124832700,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "The user is browser url",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_is_browser_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 25748900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "The user is on loginpage",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_is_on_loginpage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 36700,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "The login page title is correct",
-            "match": {
-              "location": "ContactsStepDefinition.the_login_page_title_is_correct()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 345167800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The user entered \"hemsunder\" and \"hem@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "hemsunder",
-                  "offset": 18
-                },
-                {
-                  "val": "hem@123",
-                  "offset": 34
-                }
-              ],
-              "location": "ContactsStepDefinition.the_user_entered_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10034104500,
-              "status": "passed"
-            },
-            "line": 8,
             "name": "The user logged into application",
             "match": {
-              "location": "ContactsStepDefinition.the_user_logged_into_application()"
+              "location": "DealsStepDefinition.the_user_logged_into_application()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 14188800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "The user is on HomePage",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_is_on_HomePage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 43900,
+              "duration": 8671200,
               "status": "passed"
             },
             "line": 10,
-            "name": "The title of the homepage is correct",
-            "match": {
-              "location": "ContactsStepDefinition.the_title_of_the_homepage_is_correct()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 443885400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "The user wants to add contacts",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_wants_to_add_contacts()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1596189100,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User enteres \"nick\" and \"menon\" and \"amazon\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "nick",
-                  "offset": 14
-                },
-                {
-                  "val": "menon",
-                  "offset": 25
-                },
-                {
-                  "val": "amazon",
-                  "offset": 37
-                }
-              ],
-              "location": "ContactsStepDefinition.user_enteres_and_and(String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 150810700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "The user clicks on Save button",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_clicks_on_Save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 659631400,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Quit the browser",
-            "match": {
-              "location": "ContactsStepDefinition.quit_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "Free CRM application adding contacts scenario",
-        "description": "",
-        "id": "free-crm-application-features;free-crm-application-adding-contacts-scenario;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7953844200,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "The user is browser url",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_is_browser_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 24141300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "The user is on loginpage",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_is_on_loginpage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 38600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "The login page title is correct",
-            "match": {
-              "location": "ContactsStepDefinition.the_login_page_title_is_correct()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 307840500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The user entered \"hemsunder\" and \"hem@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "hemsunder",
-                  "offset": 18
-                },
-                {
-                  "val": "hem@123",
-                  "offset": 34
-                }
-              ],
-              "location": "ContactsStepDefinition.the_user_entered_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10140414100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The user logged into application",
-            "match": {
-              "location": "ContactsStepDefinition.the_user_logged_into_application()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11646100,
-              "status": "passed"
-            },
-            "line": 9,
             "name": "The user is on HomePage",
             "match": {
-              "location": "ContactsStepDefinition.the_user_is_on_HomePage()"
+              "location": "DealsStepDefinition.the_user_is_on_HomePage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 39400,
+              "duration": 26400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "The title of the homepage is correct",
             "match": {
-              "location": "ContactsStepDefinition.the_title_of_the_homepage_is_correct()"
+              "location": "DealsStepDefinition.the_title_of_the_homepage_is_correct()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 451739200,
+              "duration": 295042800,
               "status": "passed"
             },
-            "line": 11,
-            "name": "The user wants to add contacts",
+            "line": 12,
+            "name": "The user wants to add deals",
             "match": {
-              "location": "ContactsStepDefinition.the_user_wants_to_add_contacts()"
+              "location": "DealsStepDefinition.the_user_wants_to_add_deals()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1632667200,
+              "duration": 1439987200,
               "status": "passed"
             },
-            "line": 12,
-            "name": "User enteres \"joseph\" and \"kelen\" and \"cognizant\"",
+            "line": 13,
+            "name": "User enteres deal details",
             "match": {
-              "arguments": [
-                {
-                  "val": "joseph",
-                  "offset": 14
-                },
-                {
-                  "val": "kelen",
-                  "offset": 27
-                },
-                {
-                  "val": "cognizant",
-                  "offset": 39
-                }
-              ],
-              "location": "ContactsStepDefinition.user_enteres_and_and(String,String,String)"
+              "location": "DealsStepDefinition.user_enteres_deal_details(DataTable)"
             },
-            "matchedColumns": [
-              2,
-              3,
-              4
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "google",
+                  "50",
+                  "20"
+                ],
+                "line": 14
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 187934800,
+              "duration": 77330900,
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "The user clicks on Save button",
             "match": {
-              "location": "ContactsStepDefinition.the_user_clicks_on_Save_button()"
+              "location": "DealsStepDefinition.the_user_clicks_on_Save_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 668736500,
+              "duration": 646443900,
               "status": "passed"
             },
-            "line": 14,
+            "line": 16,
             "name": "Quit the browser",
             "match": {
-              "location": "ContactsStepDefinition.quit_the_browser()"
+              "location": "DealsStepDefinition.quit_the_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "FREE CRM Application Features",
+    "name": "FREE CRM Application Deals Features",
     "description": "",
-    "id": "free-crm-application-features",
+    "id": "free-crm-application-deals-features",
     "keyword": "Feature",
-    "uri": "C:/Automation/FreeCRMCucumber/src/main/java/com/qa/Features/contacts.feature"
+    "uri": "C:/Automation/FreeCRMCucumber/src/main/java/com/qa/Features/delas.feature"
   }
 ]
