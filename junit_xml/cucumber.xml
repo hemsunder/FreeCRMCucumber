@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="64.82737">
+<testcase classname="FREE CRM Application Features" name="Free CRM application adding contacts scenario" time="22.053688">
+<system-out><![CDATA[Given The user is browser url...............................................passed
+Then The user is on loginpage...............................................passed
+When The login page title is correct........................................passed
+Then The user entered "hemsunder" and "hem@123".............................passed
+And The user logged into application........................................passed
+Then The user is on HomePage................................................passed
+When The title of the homepage is correct...................................passed
+And The user wants to add contacts..........................................passed
+Then User enteres "jack" and "jones" and "google"...........................passed
+And The user clicks on Save button..........................................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FREE CRM Application Features" name="Free CRM application adding contacts scenario 2" time="21.39464">
+<system-out><![CDATA[Given The user is browser url...............................................passed
+Then The user is on loginpage...............................................passed
+When The login page title is correct........................................passed
+Then The user entered "hemsunder" and "hem@123".............................passed
+And The user logged into application........................................passed
+Then The user is on HomePage................................................passed
+When The title of the homepage is correct...................................passed
+And The user wants to add contacts..........................................passed
+Then User enteres "nick" and "menon" and "amazon"...........................passed
+And The user clicks on Save button..........................................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FREE CRM Application Features" name="Free CRM application adding contacts scenario 3" time="21.379042">
+<system-out><![CDATA[Given The user is browser url...............................................passed
+Then The user is on loginpage...............................................passed
+When The login page title is correct........................................passed
+Then The user entered "hemsunder" and "hem@123".............................passed
+And The user logged into application........................................passed
+Then The user is on HomePage................................................passed
+When The title of the homepage is correct...................................passed
+And The user wants to add contacts..........................................passed
+Then User enteres "joseph" and "kelen" and "cognizant"......................passed
+And The user clicks on Save button..........................................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
